@@ -1,0 +1,19 @@
+{
+  "name": "crudopertion",
+  "version": "1.0.0",
+  "description": "crud operation",
+  "main": "./dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && cd dist && node app.js"
+  },
+  "author": "Gurukiran",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^18.7.3",
+    "aws-sdk": "^2.1194.0",
+    "ts-node": "^10.9.1",
+    "winston": "^3.8.1"
+  }
+}
